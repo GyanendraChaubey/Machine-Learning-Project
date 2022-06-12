@@ -1,11 +1,5 @@
 # Machine-Learning-Project
 This is complete  project
-
-
-Creating conda environment
-
-"""
-
 Conda create -p venv python==3.7 -y
 
 """
