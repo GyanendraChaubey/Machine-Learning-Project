@@ -49,7 +49,7 @@ git remote -v
 """
 To create CICD pipeline Need three things
 
-API Key: d29a7d73-b7d1-402c-bc9f-d5dbacd86529
+API Key: xxxx
 App name: ml-regression-application
 Heroku Email: gyanendrachaubey68@gmail.com
 
