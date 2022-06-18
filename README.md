@@ -91,3 +91,6 @@ To stop docker
 docker stop <container_id>
 
 """
+"""
+pip install -r requirements.txt
+"""
