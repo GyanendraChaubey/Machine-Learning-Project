@@ -94,3 +94,16 @@ docker stop <container_id>
 """
 pip install -r requirements.txt
 """
+
+Folder Structure
+Housing
+    --> __init__.py
+    --> exception package
+    --> logger package
+    --> pipeline package
+    --> stages package
+    --> config package
+    --> entity packages
+    --> component/src packaages
+
+Logger and Exception need to work first.
