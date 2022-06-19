@@ -127,6 +127,7 @@ After this we can perform the EDA to understnad data --jupyter
     i) Model Selection -- jupyter
     ii) Hyperparameter Tuning --jupyter
 5. Model Evaluation (Test Data for Model Evaluation) (Model Comparision --best model and minimum expectation)
+6. Push Model
 
 Note: Saving object into file is called as serialization and loading object fromm file is called as deserialization.
  We can create pickle for any class not only for model.
@@ -136,4 +137,17 @@ Note: Saving object into file is called as serialization and loading object from
  Real world Data --> Pickle Object of feature Enginerring (Transform function) --> Pickle object of model training (Prediction function) --> Prediction
 
 Note: Create Final pickle file with Feature Engineering object, model Object that we need to deploy
+
+MLOps
+{
+DevOps: 
+{
+    DevOps is the combination of cultural philosphies, practices, and tools that increases an organisations ability to deliver applications and services at high velocity.
+
+    CI+CD and Code Versioning
+}
+Data Versioning and Contineous Training (CT)
+}
+
+Data Versioning: Hash value and Timestamp is used for data versioninng.
 
