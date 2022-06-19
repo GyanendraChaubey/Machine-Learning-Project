@@ -151,3 +151,26 @@ Data Versioning and Contineous Training (CT)
 
 Data Versioning: Hash value and Timestamp is used for data versioninng.
 
+Entity: 
+Artificat is defined for each component of pipeline.
+
+DataIngestionArtifact
+DataValidationArtifact
+DataTransformationArtifact
+ModelEvaluationArtifact
+ModelPusherArtifact
+ModelTrainerArtifact
+
+DataIngestionConfig
+DataValidationConfig
+DataTransformationConfig
+ModelEvaluationConfig
+ModelPusherConfig
+ModelTrainerConfig
+
+
+Config:
+config.yaml --configuration details
+schema.yaml --schema details
+database --database details
+
