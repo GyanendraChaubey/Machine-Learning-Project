@@ -107,3 +107,33 @@ Housing
     --> component/src packaages
 
 Logger and Exception need to work first.
+
+Second we need to work on Entity.
+
+Steps in Machine Learning Pipeline
+1. Data Ingestion (feom AWS, GCP, Azure etc) (Split data into training and testing)
+2. Data Validation
+    i) Schema Validation
+    ii) Duplicate
+    iii) NULL Check
+    iv) Imbalance Data
+    v) Data Range
+    vi) Domain value --excepted value of column
+    vii) Anamolies
+    viii) Data Drift --change in data
+After this we can perform the EDA to understnad data --jupyter
+3. Data Transformation/Feature Engineering (keep pickle object)
+4. Model Training (keep pickle object) (Model Comparision)
+    i) Model Selection -- jupyter
+    ii) Hyperparameter Tuning --jupyter
+5. Model Evaluation (Test Data for Model Evaluation) (Model Comparision --best model and minimum expectation)
+
+Note: Saving object into file is called as serialization and loading object fromm file is called as deserialization.
+ We can create pickle for any class not only for model.
+
+ Pass test data to pickle object of feature engineering and then through modek to check model performance.
+
+ Real world Data --> Pickle Object of feature Enginerring (Transform function) --> Pickle object of model training (Prediction function) --> Prediction
+
+Note: Create Final pickle file with Feature Engineering object, model Object that we need to deploy
+
