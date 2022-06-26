@@ -2,6 +2,8 @@ from housing.entity.config_entity import DataIngestionConfig
 import sys,os
 from housing.exception import HousingException
 from housing.logger import logging
+from housing.entity.artifact_entity import DataIngestionArtifact
+
 
 class DataIngestion:
 
