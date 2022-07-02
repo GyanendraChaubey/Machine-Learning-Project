@@ -170,7 +170,14 @@ ModelTrainerConfig
 
 
 Config:
-config.yaml --configuration details
+config.yaml --configuration details (Read all config file in entity as object and provide it to pipeline)
 schema.yaml --schema details
 database --database details
+
+
+
+'''
+pip install ipykernel
+
+'''
 
