@@ -3,7 +3,7 @@ Flask
 gunicorn
 sklearn
 pandas
-PyYaml
+PyYAML
 evidently
 dill
 matplotlib
